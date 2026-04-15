@@ -2,7 +2,7 @@
 
     main {
 
-        :is(.hero .title, .differencials, .products, .locations, .about, .cta) .button button {
+        :is(.hero .title, .differencials, .products, .locations, .about, .cta) .button :is(button, a) {
 
             width: fit-content;
 
@@ -184,7 +184,7 @@
 
                 width: 100%;
 
-                button {
+                :is(button, a) {
 
                     width: fit-content;
 

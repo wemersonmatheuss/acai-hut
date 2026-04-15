@@ -1,9 +1,374 @@
 @media screen and (min-width: 500px) {
+
     main {
-        .differencials {
-            .image {
-                width: 70%;
-            }
+
+        :is(.hero .title, .differencials, .products, .locations, .about, .cta) .button button {
+
+            width: fit-content;
+
+            max-width: 100%;
+
+            padding: 18px 50px;
+
+            align-self: center;
+
         }
+
+        .hero {
+
+            padding: 0 20px 100px;
+
+            .title h1 {
+
+                font-size: 34px;
+
+                line-height: 1.2;
+
+            }
+
+        }
+
+
+
+        .differencials {
+
+            .image {
+
+                width: 70%;
+
+            }
+
+        }
+
+
+
+        .about {
+
+            .image {
+
+                width: 60%;
+
+            }
+
+        }
+
     }
+
 }
+
+@media screen and (min-width: 700px) {
+
+    html {
+
+        font-size: 18px;
+
+    }
+
+    main {
+
+        .hero {
+
+            background-image: url('../images/bg-desktop.webp');
+
+            padding: 0 24px 50px;
+
+            .title h1 {
+
+                font-size: 34px;
+
+            }
+
+        }
+
+        .products {
+
+            .all-types {
+
+                flex-direction: row;
+
+                flex-wrap: wrap;
+
+                justify-content: center;
+
+                align-items: stretch;
+
+                width: min(100%, 920px);
+
+                margin-left: auto;
+
+                margin-right: auto;
+
+            }
+
+            .all-types .type {
+
+                flex: 0 1 calc((100% - 20px) / 2);
+
+                max-width: calc((100% - 20px) / 2);
+
+                width: auto;
+
+            }
+
+        }
+
+        .locations {
+
+            .all-units {
+
+                flex-direction: row;
+
+                flex-wrap: wrap;
+
+                justify-content: center;
+
+                align-items: stretch;
+
+                width: min(100%, 920px);
+
+                margin-left: auto;
+
+                margin-right: auto;
+
+            }
+
+            .all-units .unit {
+
+                flex: 0 1 calc((100% - 20px) / 2);
+
+                max-width: calc((100% - 20px) / 2);
+
+                width: auto;
+
+            }
+
+        }
+
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    main {
+
+        .hero {
+
+            justify-content: flex-start;
+
+            align-items: center;
+
+            padding: 24px 24px 40px 150px;
+
+            .title {
+
+                align-items: flex-start;
+
+                text-align: left;
+
+                max-width: min(32rem, 50vw);
+
+            }
+
+            .title h1 {
+
+                font-size: 48px;
+
+                line-height: 1.15;
+
+            }
+
+            .title .button {
+
+                align-items: flex-start;
+
+                width: 100%;
+
+                button {
+
+                    width: fit-content;
+
+                    align-self: flex-start;
+
+                }
+
+            }
+
+        }
+
+        .differencials {
+
+            flex-direction: row;
+
+            flex-wrap: nowrap;
+
+            align-items: center;
+
+            justify-content: center;
+
+            gap: clamp(28px, 4vw, 56px);
+
+            max-width: 1120px;
+
+            margin-left: auto;
+
+            margin-right: auto;
+
+            .image {
+
+                flex: 0 1 44%;
+
+                width: 100%;
+
+                max-width: 420px;
+
+            }
+
+            .text {
+
+                flex: 1 1 52%;
+
+                min-width: 0;
+
+                text-align: left;
+
+                align-items: flex-start;
+
+                .title {
+
+                    margin-top: 0;
+
+                    text-align: left;
+
+                    align-items: flex-start;
+
+                }
+
+            }
+
+            .infos {
+
+                justify-content: center;
+
+                text-align: center;
+
+                align-self: center;
+
+                width: 100%;
+
+            }
+
+            .button {
+
+                align-items: flex-start;
+
+            }
+
+        }
+
+        .about {
+
+            display: grid;
+
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+
+            grid-template-rows: auto auto auto;
+
+            column-gap: clamp(32px, 4vw, 64px);
+
+            row-gap: 20px;
+
+            align-items: start;
+
+            max-width: 1120px;
+
+            margin-left: auto;
+
+            margin-right: auto;
+
+            .image {
+
+                grid-column: 1;
+
+                grid-row: 1 / 4;
+
+                align-self: center;
+
+                justify-self: center;
+
+                width: 100%;
+
+                max-width: 360px;
+
+            }
+
+            .title {
+
+                grid-column: 2;
+
+                grid-row: 1;
+
+                margin-top: 0;
+
+                text-align: left;
+
+                width: 100%;
+
+            }
+
+            .description {
+
+                grid-column: 2;
+
+                grid-row: 2;
+
+                margin-top: 0;
+
+                width: 100%;
+
+                p {
+
+                    text-align: left;
+
+                }
+
+            }
+
+            .button {
+
+                grid-column: 2;
+
+                grid-row: 3;
+
+                margin-top: 0;
+
+                align-items: flex-start;
+
+            }
+
+        }
+
+        .cta {
+
+            padding: 28px 40px;
+
+        }
+
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    main {
+
+        .hero {
+
+            padding-left: 100px;
+
+        }
+
+    }
+
+}
+

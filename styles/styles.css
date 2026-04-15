@@ -43,7 +43,7 @@ header {
 
     .links a {
         text-decoration: none;
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 600;
         color: var(--text-secondary);
     }
@@ -67,7 +67,7 @@ header {
         border-radius: 14px;
         border: none;
 
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: bold;
         color: var(--text-secondary);
         background: var(--btn-gradient);
@@ -125,7 +125,7 @@ header.menu-open {
         }
 
         .links a {
-            font-size: 16px;
+            font-size: 1rem;
             font-weight: 500;
             color: var(--text-primary);
         }
@@ -139,7 +139,7 @@ header.menu-open {
         .button button {
             width: auto;
             padding: 12px 18px;
-            font-size: 14px;
+            font-size: 0.875rem;
         }
 
         .mobile-menu {
@@ -172,14 +172,14 @@ main {
             color: var(--text-tertiary);
 
             h1 {
-                font-size: 28px;
+                font-size: 1.75rem;
                 font-weight: bold;
 
                 color: var(--text-secondary);
             }
 
             p:last-of-type {
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: 400;
     
                 color: var(--text-secondary);
@@ -200,7 +200,7 @@ main {
                     border-radius: 14px;
                     border: none;
     
-                    font-size: 16px;
+                    font-size: 1rem;
                     font-weight: bold;
                     color: var(--text-secondary);
                     background: var(--btn-gradient);
@@ -212,7 +212,7 @@ main {
     .differencials {
         padding: 0 16px;
 
-        margin-top: 40px;
+        margin-top: 64px;
 
         display: flex;
         flex-direction: column;
@@ -242,19 +242,19 @@ main {
                 gap: 10px;
 
                 p:first-of-type {
-                    font-size: 16px;
+                    font-size: 1rem;
                     font-weight: 500;
                     color: var(--text-detail);
                 }
 
                 h2 {
-                    font-size: 24px;
+                    font-size: 1.5rem;
                     font-weight: 600;
                     color: var(--text-primary);
                 }
 
                 p:last-of-type {
-                    font-size: 16px;
+                    font-size: 1rem;
                     font-weight: 500;
                     color: var(--text-tertiary);
                 }
@@ -271,13 +271,13 @@ main {
 
             .info {
                 span {
-                    font-size: 20px;
+                    font-size: 1.25rem;
                     font-weight: 600;
                     color: var(--text-quaternary);
                 }
 
                 p {
-                    font-size: 16px;
+                    font-size: 1rem;
                     font-weight: 500;
                     color: var(--text-primary);
                 }
@@ -299,7 +299,7 @@ main {
                 border-radius: 14px;
                 border: none;
 
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: bold;
                 color: var(--text-secondary);
                 background: var(--btn-gradient);
@@ -310,7 +310,7 @@ main {
     .products {
         padding: 0 16px;
 
-        margin-top: 40px;
+        margin-top: 64px;
 
         display: flex;
         flex-direction: column;
@@ -325,19 +325,19 @@ main {
             gap: 10px;
 
             p:first-of-type {
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: 500;
                 color: var(--text-detail);
             }
 
             h2 {
-                font-size: 24px;
+                font-size: 1.5rem;
                 font-weight: 600;
                 color: var(--text-primary);
             }
 
             p:last-of-type {
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: 500;
                 color: var(--text-tertiary);
             }
@@ -364,13 +364,13 @@ main {
                 padding: 20px;
 
                 h3 {
-                    font-size: 16px;
+                    font-size: 1rem;
                     color: var(--text-secondary);
                     font-weight: 600;
                 }
 
                 p {
-                    font-size: 14px;
+                    font-size: 0.875rem;
                     color: var(--text-quinary);
                     font-weight: 400;
                 }
@@ -428,7 +428,7 @@ main {
                 border-radius: 14px;
                 border: none;
 
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: bold;
                 color: var(--text-secondary);
                 background: var(--btn-gradient);
@@ -439,7 +439,7 @@ main {
     .locations {
         padding: 0 16px;
 
-        margin-top: 40px;
+        margin-top: 64px;
 
         display: flex;
         flex-direction: column;
@@ -454,19 +454,19 @@ main {
             gap: 10px;
 
             p:first-of-type {
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: 500;
                 color: var(--text-detail);
             }
 
             h2 {
-                font-size: 24px;
+                font-size: 1.5rem;
                 font-weight: 600;
                 color: var(--text-primary);
             }
 
             p:last-of-type {
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: 500;
                 color: var(--text-tertiary);
             }
@@ -493,13 +493,13 @@ main {
                 padding: 20px;
 
                 h3 {
-                    font-size: 16px;
+                    font-size: 1rem;
                     color: var(--text-secondary);
                     font-weight: 600;
                 }
 
                 p {
-                    font-size: 14px;
+                    font-size: 0.875rem;
                     color: var(--text-quinary);
                     font-weight: 400;
                 }
@@ -542,7 +542,7 @@ main {
                 border-radius: 14px;
                 border: none;
 
-                font-size: 14px;
+                font-size: 0.875rem;
                 font-weight: bold;
                 color: var(--text-secondary);
                 background: var(--btn-gradient);
@@ -553,7 +553,7 @@ main {
     .about {
         padding: 0 16px;
 
-        margin-top: 40px;
+        margin-top: 64px;
 
         display: flex;
         flex-direction: column;
@@ -573,7 +573,7 @@ main {
             margin-top: 30px;
 
             h2 {
-                font-size: 24px;
+                font-size: 1.5rem;
                 font-weight: 600;
                 color: var(--text-primary);
             }
@@ -582,7 +582,7 @@ main {
         .description {
             margin-top: 20px;
             p {
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: 500;
                 color: var(--text-tertiary);
                 text-align: center;
@@ -604,7 +604,7 @@ main {
                 border-radius: 14px;
                 border: none;
 
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: bold;
                 color: var(--text-secondary);
                 background: var(--btn-gradient);
@@ -617,7 +617,7 @@ main {
         background-color: var(--text-detail);
         padding: 10px 20px;
         border-radius: 12px;
-        margin: 30px auto;
+        margin: 48px auto;
         text-align: center;
 
         .title {
@@ -628,19 +628,19 @@ main {
             gap: 10px;
 
             p:first-of-type {
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: 400;
                 color: var(--text-secondary);
             }
 
             h2 {
-                font-size: 24px;
+                font-size: 1.5rem;
                 font-weight: 600;
                 color: var(--text-secondary);
             }
 
             p:last-of-type {
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: 400;
                 color: var(--text-secondary);
             }
@@ -661,7 +661,7 @@ main {
                 border-radius: 14px;
                 border: none;
 
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: bold;
                 color: var(--text-secondary);
                 background: var(--btn-gradient);
@@ -675,7 +675,7 @@ footer {
     padding: 20px;
 
     p {
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 400;
         color: var(--text-secondary);
         text-align: center;

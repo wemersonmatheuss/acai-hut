@@ -23,6 +23,7 @@ body {
     --text-secondary: #FFFFFF;
     --text-tertiary: #454545;
     --text-quaternary: #858585;
+    --text-quinary: #E5E5E5;
     --text-detail: #4B007D;
 
     --btn-gradient: linear-gradient(135deg, #4B007D 0%, #8A05BE 100%);

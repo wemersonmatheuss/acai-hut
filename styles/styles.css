@@ -202,7 +202,7 @@ main {
     .differencials {
         padding: 0 16px;
 
-        margin-top: 30px;
+        margin-top: 40px;
 
         display: flex;
         flex-direction: column;
@@ -276,8 +276,15 @@ main {
 
         .button {
             margin-top: 20px;
+            width: 100%;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
             button {
-                width: 90%;
+                width: 80%;
                 padding: 18px 30px;
                 border-radius: 14px;
                 border: none;
@@ -286,7 +293,135 @@ main {
                 font-weight: bold;
                 color: var(--text-secondary);
                 background: var(--btn-gradient);
+            } 
+        }
+    }
+
+    .products {
+        padding: 0 16px;
+
+        margin-top: 40px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .title {
+            text-align: center;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            p:first-of-type {
+                font-size: 16px;
+                font-weight: 500;
+                color: var(--text-detail);
             }
+
+            h2 {
+                font-size: 24px;
+                font-weight: 600;
+                color: var(--text-primary);
+            }
+
+            p:last-of-type {
+                font-size: 16px;
+                font-weight: 500;
+                color: var(--text-tertiary);
+            }
+        }
+
+        .all-types {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            
+            .type {
+                width: 80%;
+                height: 40vh;
+                border-radius: 12px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                gap: 10px;
+                padding: 20px;
+
+                h3 {
+                    font-size: 16px;
+                    color: var(--text-secondary);
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: var(--text-quinary);
+                    font-weight: 400;
+                }
+            }
+
+            #type1 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/image2.webp');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            #type2 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/image3.webp');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            #type3 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/image4.webp');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            #type4 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/image5.webp');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            #type5 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/image6.webp');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            
+        }
+
+        .button {
+            margin-top: 20px;
+            width: 100%;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            button {
+                width: 80%;
+                padding: 18px 30px;
+                border-radius: 14px;
+                border: none;
+
+                font-size: 16px;
+                font-weight: bold;
+                color: var(--text-secondary);
+                background: var(--btn-gradient);
+            } 
         }
     }
 }

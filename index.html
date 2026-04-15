@@ -19,7 +19,7 @@
             <img src="./images/logo.webp" alt="Logo Açai Hut">
         </div>
 
-        <div class="links">
+        <div class="links" id="mobileOverlay">
             <a href="#">Home</a>
             <a href="#">Produtos</a>
             <a href="#">Unidades</a>
@@ -32,7 +32,9 @@
         </div>
 
         <div class="mobile-menu">
-            <img src="./images/menu-mobile.webp" alt="Menu Mobile">
+            <button type="button" id="mobileMenuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileOverlay">
+                <img src="./images/menu-mobile.webp" alt="Menu Mobile">
+            </button>
         </div>
     </header>
 
@@ -49,5 +51,7 @@
             </div> 
         </section>
     </main>
+
+    <script src="./script.js"></script>
 </body>
 </html>

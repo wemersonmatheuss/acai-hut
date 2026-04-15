@@ -353,6 +353,7 @@ main {
             
             .type {
                 width: 80%;
+                max-width: 100%;
                 height: 40vh;
                 border-radius: 12px;
 
@@ -481,6 +482,7 @@ main {
             
             .unit {
                 width: 80%;
+                max-width: 100%;
                 height: 40vh;
                 border-radius: 12px;
 

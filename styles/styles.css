@@ -424,4 +424,117 @@ main {
             } 
         }
     }
+
+    .locations {
+        padding: 0 16px;
+
+        margin-top: 40px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .title {
+            text-align: center;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            p:first-of-type {
+                font-size: 16px;
+                font-weight: 500;
+                color: var(--text-detail);
+            }
+
+            h2 {
+                font-size: 24px;
+                font-weight: 600;
+                color: var(--text-primary);
+            }
+
+            p:last-of-type {
+                font-size: 16px;
+                font-weight: 500;
+                color: var(--text-tertiary);
+            }
+        }
+
+        .all-units {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            
+            .unit {
+                width: 80%;
+                height: 40vh;
+                border-radius: 12px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                gap: 10px;
+                padding: 20px;
+
+                h3 {
+                    font-size: 16px;
+                    color: var(--text-secondary);
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: var(--text-quinary);
+                    font-weight: 400;
+                }
+            }
+
+            #unit1 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/image7.webp');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            #unit2 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/image8.webp');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            #unit3 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/image9.webp');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+
+        .button {
+            margin-top: 20px;
+            width: 100%;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            button {
+                width: 80%;
+                padding: 18px 30px;
+                border-radius: 14px;
+                border: none;
+
+                font-size: 16px;
+                font-weight: bold;
+                color: var(--text-secondary);
+                background: var(--btn-gradient);
+            } 
+        }
+    }
 }

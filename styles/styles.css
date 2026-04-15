@@ -1,0 +1,88 @@
+header {
+    padding: 16px 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba(248, 246, 243, 0.35);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 6px 20px rgba(31, 31, 31, 0.08);
+    
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;  
+
+    .logo img {
+        width: 50px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .mobile-menu img {
+        width: 30px;
+    }
+}
+
+main {
+    .hero {
+        background-image: url('../images/bg-mobile.webp');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        padding: 0 24px 40px;
+
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+
+        .title {
+            max-width: 320px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 10px;
+            color: var(--text-tertiary);
+        }
+
+        .title h1 {
+            font-size: 28;
+            font-weight: bold;
+
+            color: var(--text-secondary);
+        }
+
+        .title p:last-of-type {
+            font-size: 16px;
+            font-weight: 400;
+
+            color: var(--text-secondary);
+        }
+
+        .title button {
+            margin-top: 10px;
+            width: 100%;
+            padding: 18px 30px;
+            border-radius: 14px;
+
+            font-size: 16px;
+            font-weight: bold;
+            color: var(--text-secondary);
+            background: var(--btn-gradient);
+        }
+    }
+}

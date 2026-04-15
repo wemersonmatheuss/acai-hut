@@ -12,14 +12,16 @@ body {
     font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    background-color: var(--background-color);
 }
 
 :root {
     --background-color: #F8F6F3;
 
     --text-primary: #1F1F1F;
-    --text-tertiary: #FFFFFF;
-    --text-secondary: #454545;
+    --text-secondary: #FFFFFF;
+    --text-tertiary: #454545;
     --text-quaternary: #858585;
     --text-detail: #4B007D;
 

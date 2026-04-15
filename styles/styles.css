@@ -253,6 +253,11 @@ main {
 
         .infos {
             display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
 
             .info {
                 span {
